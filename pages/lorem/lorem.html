@@ -4,9 +4,12 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding style="text-align:center">
   <h2>Welcome to Lorem!</h2>
   <p>
     Lorem Ipsum dolor sit amet
   </p>
+  <h3> {{count}} </h3>
+  <button ion-button (click)="increase()">Increase</button>
+  <button ion-button (click)="decrease()">Decrease</button>
 </ion-content>
